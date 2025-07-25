@@ -1,1 +1,1 @@
-# BlazorPublicatrionApp
+# BlazorPublicationApp
