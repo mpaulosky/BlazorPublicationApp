@@ -1,0 +1,44 @@
+﻿@inject GetPublications.Handler Handler
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Substack Url</th>
+			<th>Notes Url</th>
+			<th>Subscribers</th>
+			<th>Category 1</th>
+			<th>Category 2</th>
+			<th>About Publication</th>
+			<th>About Writer</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var publication in _publications)
+		{
+			<tr>
+				<td>@publication.Name</td>
+				<td>@publication.SubstackUrl</td>
+				<td>@publication.NotesUrl</td>
+				<td>@publication.Subscribers</td>
+				<td>@publication.Category1</td>
+				<td>@publication.Category2</td>
+				<td>@publication.AboutPublication</td>
+				<td>@publication.AboutWriter</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+@code {
+
+	List<GetPublications.Response> _publications = new();
+
+	protected override async Task OnInitializedAsync()
+	{
+
+		_publications = await Handler.HandleAsync();
+
+	}
+
+}
