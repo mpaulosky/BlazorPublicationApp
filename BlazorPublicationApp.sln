@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPublication", "BlazorPublication\BlazorPublication.csproj", "{57451080-6D65-4652-8588-A09160E89034}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{9F5E6384-8D91-7B30-BF94-463B36B69FC3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "github", "github", "{B9C84858-5D99-EF18-D2FC-4BCC2A363A17}"
+	ProjectSection(SolutionItems) = preProject
+		.github\.copilot-commit-message-instructions.md = .github\.copilot-commit-message-instructions.md
+		.github\blazor.instructions.md = .github\blazor.instructions.md
+		.github\copilot-instructions.md = .github\copilot-instructions.md
+		.github\csharp-xunit.prompt.md = .github\csharp-xunit.prompt.md
+		.github\git-commit-instructions.md = .github\git-commit-instructions.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost\AppHost.csproj", "{4F100F3B-0633-474F-9D4D-3D199D609CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{F6919EF8-7B0B-4415-812B-2871821472B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{52F83D25-4084-4FB2-8C95-7782645A7BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57451080-6D65-4652-8588-A09160E89034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57451080-6D65-4652-8588-A09160E89034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57451080-6D65-4652-8588-A09160E89034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57451080-6D65-4652-8588-A09160E89034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F100F3B-0633-474F-9D4D-3D199D609CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F100F3B-0633-474F-9D4D-3D199D609CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F100F3B-0633-474F-9D4D-3D199D609CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F100F3B-0633-474F-9D4D-3D199D609CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6919EF8-7B0B-4415-812B-2871821472B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6919EF8-7B0B-4415-812B-2871821472B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6919EF8-7B0B-4415-812B-2871821472B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6919EF8-7B0B-4415-812B-2871821472B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F83D25-4084-4FB2-8C95-7782645A7BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F83D25-4084-4FB2-8C95-7782645A7BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F83D25-4084-4FB2-8C95-7782645A7BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F83D25-4084-4FB2-8C95-7782645A7BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9C84858-5D99-EF18-D2FC-4BCC2A363A17} = {9F5E6384-8D91-7B30-BF94-463B36B69FC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85CA9F65-D7AA-4F1B-9DE3-6EDE07A0CD5F}
+	EndGlobalSection
+EndGlobal
