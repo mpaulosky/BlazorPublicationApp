@@ -8,10 +8,3 @@
 // =======================================================
 
 namespace Shared;
-
-public static class Services
-{
-
-	
-
-}
