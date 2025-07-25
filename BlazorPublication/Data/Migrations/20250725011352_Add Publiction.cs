@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BlazorPublication.Migrations
 {
     /// <inheritdoc />
-    public partial class AddPubliction : Migration
+    public partial class AddPublication : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
